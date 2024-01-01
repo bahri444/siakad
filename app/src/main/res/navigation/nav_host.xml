@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_host"
+    app:startDestination="@id/dashboardMahasiswaFragment">
+
+    <fragment
+        android:id="@+id/dashboardMahasiswaFragment"
+        android:name="ac.id.stmiklombok.siakad.DashboardMahasiswaFragment"
+        android:label="fragment_dashboard_mahasiswa"
+        tools:layout="@layout/fragment_dashboard_mahasiswa" />
+    <fragment
+        android:id="@+id/userSettingsFragment"
+        android:name="ac.id.stmiklombok.siakad.UserSettingsFragment"
+        android:label="fragment_user_settings"
+        tools:layout="@layout/fragment_user_settings" />
+    <fragment
+        android:id="@+id/logoutUserFragment"
+        android:name="ac.id.stmiklombok.siakad.LogoutUserFragment"
+        android:label="fragment_logout_user"
+        tools:layout="@layout/fragment_logout_user" />
+</navigation>

@@ -13,8 +13,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(bindingView.root)
 
         bindingView.buttonLogin.setOnClickListener {
-            val intent = Intent(this, HomeActivity::class.java)
-            startActivity(intent)
+            startActivity(Intent(this, DashboardMahasiswaActivity::class.java))
         }
     }
 }
